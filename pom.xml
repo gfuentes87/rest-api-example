@@ -16,6 +16,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <junit.version>5.8.2</junit.version>
         <lombok.version>1.18.24</lombok.version>
+        <rxjava.version>3.1.4</rxjava.version>
     </properties>
 
     <parent>
@@ -49,6 +50,14 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.reactivex.rxjava3/rxjava -->
+        <dependency>
+            <groupId>io.reactivex.rxjava3</groupId>
+            <artifactId>rxjava</artifactId>
+            <version>${rxjava.version}</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
